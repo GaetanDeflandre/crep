@@ -1,10 +1,10 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Bootstrap 101 Template</title>
+    <title>Crep</title>
 
     <!-- Bootstrap -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -17,22 +17,34 @@
 	<![endif]-->
   </head>
   <body>
-    <h1>Hello, world!</h1>
+    <h1>Le site du CREP</h1>
 
-    <table>
-      <th>
-	<tr>
-	  <td>Nom</td>
-	  <td>Prenom</td>
-	  <td>Age</td>
-	</tr>
-      </th>
+    <ul class="nav nav-tabs" role="tablist">
+      <li role="presentation" class="active"><a href="#">Home</a></li>
+      <li role="presentation"><a href="#">News</a></li>
+    </ul>
+
+    <div class="current_content">
       
-    </table>
+    </div>
+
+    <script type="text/javascript">
+      test();
+    </script>
+
+
+
+    <!-- Fin du contenu de la page -->
 
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="js/bootstrap.min.js"></script>
+    <!--  Nos fonction javascript -->
+    <script src="crep.js"></script>
+
+    <script type="text/javascript">
+      defaultContent();
+    </script>
   </body>
 </html>
